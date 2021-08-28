@@ -1,0 +1,34 @@
+# Build Artifacts
+/**/out/
+
+# Gradle
+.gradle
+
+# STS
+**/.apt_generated
+**/.classpath
+**/.factorypath
+**/.project
+**/.settings
+**/.springBeans
+**/.sts4-cache
+
+# IntelliJ IDEA
+**/.idea
+**/*.iws
+**/*.iml
+**/*.ipr
+
+# NetBeans
+**/nbproject/private/
+**/nbbuild/
+**/nbdist/
+**/.nb-gradle/
+
+# Editors
+**/.c9/
+**/*.launch
+**/*.sublime-workspace
+
+# OS-X
+.DS_Store
