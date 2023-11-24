@@ -12,7 +12,9 @@ class BookingServiceSpec extends Specification {
     service = new BookingService(gateway)
   }
 
-  def "should create a booking when the amount is negative"() {
+  def "should not create a booking when the amount is negative"() {
+    given:
+      gateway.send() >> true
     when:
       service.create(-100)
     then:
